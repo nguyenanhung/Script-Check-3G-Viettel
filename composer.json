@@ -18,10 +18,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
-        "ext-curl": "*",
-        "ext-json": "*",
-        "ext-openssl": "*",
+        "php": ">=5.4",
         "mlocati/ip-lib": "^1.6"
     },
     "autoload": {
