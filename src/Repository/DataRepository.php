@@ -8,6 +8,9 @@
  */
 
 namespace nguyenanhung\VnTelcoViettel\Repository;
+if (!interface_exists('nguyenanhung\VnTelcoViettel\Interfaces\ProjectInterfaces')) {
+    include_once __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'Interfaces' . DIRECTORY_SEPARATOR . 'ProjectInterfaces.php';
+}
 
 use nguyenanhung\VnTelcoViettel\Interfaces\ProjectInterfaces;
 

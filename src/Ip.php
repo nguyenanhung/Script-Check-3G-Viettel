@@ -8,9 +8,18 @@
  */
 
 namespace nguyenanhung\VnTelcoViettel;
+if (!interface_exists('nguyenanhung\VnTelcoViettel\Interfaces\ProjectInterfaces')) {
+    include_once __DIR__ . DIRECTORY_SEPARATOR . 'Interfaces' . DIRECTORY_SEPARATOR . 'ProjectInterfaces.php';
+}
+if (!interface_exists('nguyenanhung\VnTelcoViettel\Interfaces\IpInterfaces')) {
+    include_once __DIR__ . DIRECTORY_SEPARATOR . 'Interfaces' . DIRECTORY_SEPARATOR . 'IpInterfaces.php';
+}
+if (!class_exists('nguyenanhung\VnTelcoViettel\Repository\DataRepository')) {
+    include_once __DIR__ . DIRECTORY_SEPARATOR . 'Repository' . DIRECTORY_SEPARATOR . 'DataRepository.php';
+}
 
-use nguyenanhung\VnTelcoViettel\Interfaces\IpInterfaces;
 use nguyenanhung\VnTelcoViettel\Interfaces\ProjectInterfaces;
+use nguyenanhung\VnTelcoViettel\Interfaces\IpInterfaces;
 use nguyenanhung\VnTelcoViettel\Repository\DataRepository;
 
 class Ip implements ProjectInterfaces, IpInterfaces
