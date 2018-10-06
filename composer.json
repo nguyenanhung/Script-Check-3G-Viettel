@@ -1,0 +1,33 @@
+{
+    "name": "nguyenanhung/script-check-3g-viettel",
+    "type": "library",
+    "description": "Library check 3g Viettel",
+    "keywords": [
+        "viettel",
+        "detect",
+        "msisdn"
+    ],
+    "homepage": "https://github.com/nguyenanhung/Script-Check-3G-Viettel",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "markrogoyski/ipv4-subnet-calculator": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\VnTelcoViettel\\": "src/"
+        }
+    }
+}
