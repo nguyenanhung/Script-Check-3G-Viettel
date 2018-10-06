@@ -4,10 +4,14 @@
  * Created by PhpStorm.
  * User: 713uk13m <dev@nguyenanhung.com>
  * Date: 10/6/18
- * Time: 14:59
+ * Time: 15:03
  */
 
-class DataRepository
+namespace nguyenanhung\VnTelcoViettel\Repository;
+
+use nguyenanhung\VnTelcoViettel\Interfaces\ProjectInterfaces;
+
+class DataRepository implements ProjectInterfaces
 {
     const CONFIG_PATH = 'config';
     const CONFIG_EXT  = '.php';

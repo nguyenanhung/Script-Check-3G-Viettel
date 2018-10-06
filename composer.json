@@ -22,8 +22,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-openssl": "*",
-        "mobiledetect/mobiledetectlib": "^2.8",
-        "markrogoyski/ipv4-subnet-calculator": "^2.1"
+        "mlocati/ip-lib": "^1.6"
     },
     "autoload": {
         "psr-4": {

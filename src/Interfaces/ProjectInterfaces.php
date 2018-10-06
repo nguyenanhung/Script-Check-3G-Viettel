@@ -4,8 +4,11 @@
  * Created by PhpStorm.
  * User: 713uk13m <dev@nguyenanhung.com>
  * Date: 10/6/18
- * Time: 14:59
+ * Time: 15:03
  */
+
+namespace nguyenanhung\VnTelcoViettel\Interfaces;
+
 
 interface ProjectInterfaces
 {
@@ -19,7 +22,7 @@ interface ProjectInterfaces
      * Function getVersion
      *
      * @author: 713uk13m <dev@nguyenanhung.com>
-     * @time  : 10/6/18 14:59
+     * @time  : 10/6/18 15:04
      *
      * @return mixed
      */
